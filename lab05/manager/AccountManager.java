@@ -1,6 +1,6 @@
-package manager;
+package lab05.manager;
 
-import account.Account;
+import lab05.account.Account;
 import java.time.LocalDate;
 import java.util.Random;
 
