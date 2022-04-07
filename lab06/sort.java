@@ -1,6 +1,6 @@
 package lab06;
 
-public class sort {
+public class Sort {
 	public static void main(String[] args) {
 		int[] arr1 = {7, 4, 5, 1, 3};		//배열 선언 및 초기화 
 		int[] arr2 = {9, 2, 2, 5, 4, 3, 1, 6, 7, 3, 8, 0, 3};
