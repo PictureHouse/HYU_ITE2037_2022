@@ -1,5 +1,7 @@
 # HYU_ITE2037_2022
-### Object-Oriented Systems Design [Prof. Choonhwa Lee] - Hanyang University 2022 Spring Semester
+### Object-Oriented Systems Design [Prof. Choonhwa Lee] 
+
+### Hanyang University 2022 Spring Semester
 
 ### [Assignment Details]
 
