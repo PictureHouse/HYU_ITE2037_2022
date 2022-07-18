@@ -2,8 +2,8 @@ package quiz2;
 
 import java.util.ArrayList;
 
-public class Collector< T extends UniqueToken> {
-	private ArrayList<T> arr = new ArrayList<T>();; // 본인이 가진 토큰의 목록
+public class Collector< T extends UniqueToken> implements UniqueTokenCollector<T> {
+	private ArrayList<T> arr = new ArrayList<T>(); // 본인이 가진 토큰의 목록
 	private String name; // 본인 이름
 	private int uid; // 본인 ID
 

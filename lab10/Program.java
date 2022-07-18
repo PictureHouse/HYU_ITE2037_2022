@@ -27,19 +27,14 @@ public class Program {
 				System.out.println("Person HP: " + this.hp);
 			}
 		};
-		
 		showResult(animals, person);
-
 	}
 	
 	private static void showResult(Animal[] animals, Person p) {
 		for (int i = 0; i < animals.length; i++) {		//animals의 모든 Animal을 순회 
 			System.out.printf("Animal%d:" + animals[i].getName() + "\n", i + 1);		//Animal의 이름 출력 
 			if (animals[i] instanceof(Barkable barkable)) {		//Animal이 Barkable이면 bark() 수행 
-				if (animals[i] instanceof Dog)
-					System.out.printf("Animal%d barked " + ((Dog)animals[i]).bark() + "\n", i + 1);
-				else if (animals[i] instanceof Tiger)
-					System.out.printf("Animal%d barked " + ((Tiger)animals[i]).bark() + "\n", i + 1);
+				System.out.printf("Animal%d barked " + barkable.bark() + "\n", i + 1);
 			}
 			p.control(animals[i]);
 			p.showInfo();
